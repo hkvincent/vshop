@@ -31,7 +31,7 @@ dependencies:
   #最新版本的flutter中使用flutter_swiper_null_safety替代flutter_swiper，他们的用法都是一样的。
   #flutter_swiper_null_safety: ^1.0.2
   card_swiper : ^2.0.1
-  flutter_screenutil: ^5.0.0+2
+  flutter_screenutil: ^5.5.3+2
   dio: ^4.0.0
   shared_preferences: ^2.0.6
   flutter_inappwebview: ^5.3.2

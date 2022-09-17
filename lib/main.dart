@@ -20,7 +20,7 @@ class _MyAppState extends State<MyApp> {
   Widget build(BuildContext context) {
     return ScreenUtilInit(
       designSize: Size(750, 1334), //配置设计稿的宽度高度
-      builder: () => MultiProvider(
+      builder: (context, child) => MultiProvider(
         //配置Provider
         providers: [
           ChangeNotifierProvider(create: (_) => CheckOutProvider()),

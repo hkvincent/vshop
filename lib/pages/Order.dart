@@ -117,10 +117,10 @@ class _OrderPageState extends State<OrderPage> {
                       SizedBox(height: 10),
                       ListTile(
                         leading: Text("Total：￥${value.allPrice}"),
-                        trailing: FlatButton(
+                        trailing: TextButton(
                           child: Text("Customer Service"),
                           onPressed: () {},
-                          color: Colors.grey[100],
+                          //color: Colors.grey[100],
                         ),
                       ),
                     ],
